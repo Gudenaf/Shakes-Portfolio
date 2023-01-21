@@ -140,13 +140,6 @@ h6 {
   min-width: 0;
 }
 
-/*
-(i) Стили будут применяться ко 
-всем классам содержащим *__container
-Например header__container, main__container и т.д.
-Снипет (HTML): cnt
-*/
-
 [class*=__container] {
   margin: 0 auto;
   max-width: 90.625rem;
@@ -172,6 +165,8 @@ h6 {
   -o-object-fit: contain;
      object-fit: contain;
 }
+
+/* Заголовки, общие БЭМ блоки и прочее...*/
 
 .logo svg {
   vertical-align: middle;
@@ -251,6 +246,8 @@ h6 {
   left: -30%;
   top: -110%;
 }
+
+/* Анимация появления при прокрутке */
 
 [data-watch] {
   opacity: 0;
@@ -390,6 +387,7 @@ h6 {
 }
 
 .menu__icon {
+  /* Burger */
   display: none;
 }
 
@@ -717,6 +715,7 @@ h6 {
 }
 
 .nutra__upper-wrapper {
+  /* Swiper */
   margin: 0 95px;
 }
 
@@ -729,6 +728,7 @@ h6 {
 }
 
 .nutra__slide {
+  /* .swiper__slide */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -764,6 +764,7 @@ h6 {
 }
 
 .nutra__btn-wrapper {
+  /* Swiper buttons */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1272,6 +1273,7 @@ h6 {
 
 @media (max-width: 47.99875em) {
   body::after {
+    /* Блюр заднего фона при нажатии на мобильное меню */
     content: "";
     position: fixed;
     width: 100%;
