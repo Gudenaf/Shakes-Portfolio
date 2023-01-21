@@ -2,11 +2,11 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Shakes Pro</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230120185458">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230121062750">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,9 @@
 
 <body>
 	<div class="wrapper">
-		<!--header__wrapper Создался исключительно для мобильного меню-->
-		<div class="header__wrapper">
-			<header class="header">
+		<header data-scroll="90" data-scroll-show class="header">
+			<!--header__wrapper Создался исключительно для мобильного меню-->
+			<div class="header__wrapper">
 				<div class="header__container">
 					<div class="header__menu menu">
 						<a href="#" class="header__logo logo">
@@ -42,8 +42,9 @@
 						</div>
 					</div>
 				</div>
-			</header>
-		</div>
+			</div>
+		</header>
+
 		<main class="page">
 			<section class="lead">
 				<div class="lead__container">
@@ -55,9 +56,11 @@
 					<span class="decor__pink decor"></span>
 					<!--//Декорация-->
 					<div class="lead__content">
-						<p data-watch-threshold="0.3" data-watch-once data-watch class="lead__heading">СРА сеть <span>SHAKES PRO</span></p>
-						<h1 data-watch-threshold="0.5" data-watch-once data-watch class="lead__title title">Ведущая нутра партнерка <span>с 2013 года</span></h1>
-						<div data-watch-threshold="0.8" data-watch-once data-watch class="lead__items">
+						<p data-watch-threshold="0.3" data-watch-once data-watch class="lead__heading">СРА сеть <span>SHAKES PRO</span>
+						</p>
+						<h1 data-watch-threshold="0.4" data-watch-once data-watch class="lead__title title">Ведущая нутра
+							партнерка <span>с 2013 года</span></h1>
+						<div data-watch-threshold="0.2" data-watch-once data-watch class="lead__items">
 							<div class="lead__item">
 								<div class="lead__icon">
 									<img src="img/lead/icons/earth.svg" alt="">
@@ -83,7 +86,7 @@
 								<p class="lead__desc">API и Postback</p>
 							</div>
 						</div>
-						<div data-watch-threshold="1" data-watch-once data-watch class="lead__group">
+						<div data-watch-threshold="0.5" data-watch-once data-watch class="lead__group">
 							<a href="#" class="lead__btn button">Зарегистрироваться</a>
 							<div class="lead__registration registration">
 								<div class="registration__icon">
@@ -101,7 +104,8 @@
 					<!--Декорация-->
 					<span class="decor__purple decor"></span>
 					<!--//Декорация-->
-					<h2 data-watch-threshold="0.3" data-watch-once data-watch class="nutra__title title">Получи доступ к 2000+ офферам по нутре, включая топ-бренды</h2>
+					<h2 data-watch-threshold="0.3" data-watch-once data-watch class="nutra__title title">Получи доступ к
+						2000+ офферам по нутре, включая топ-бренды</h2>
 					<div class="nutra__content">
 						<ul data-watch-threshold="0.5" data-watch-once data-watch class="nutra__list">
 							<li class="nutra__item">защита от невыплат сторонних рекламодателей</li>
@@ -172,7 +176,7 @@
 		<footer class="footer">
 			<div class="footer__top">
 				<div class="footer__top__container">
-					<a data-watch-threshold="0.8" data-watch-once data-watch href="#" class="footer__logo logo">
+					<a data-watch-threshold="0.1" data-watch-once data-watch href="#" class="footer__logo logo">
 						<svg width="230" height="28" viewBox="0 0 230 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M30.44 1.23998C29.8689 1.24526 29.3231 1.47654 28.9221 1.88321C28.521 2.28987 28.2974 2.83883 28.3 3.40998V22.48H18.87V1.23998H16.31C15.7389 1.24526 15.1931 1.47654 14.7921 1.88321C14.391 2.28987 14.1674 2.83883 14.17 3.40998V22.48H4.70002V1.23998H2.14002C1.85768 1.24129 1.57836 1.2982 1.31801 1.40746C1.05766 1.51672 0.821384 1.67619 0.622666 1.87677C0.423948 2.07734 0.266683 2.31509 0.159849 2.57645C0.053016 2.8378 -0.00129291 3.11764 2.33657e-05 3.39998V27.23H31C31.5305 27.23 32.0392 27.0193 32.4142 26.6442C32.7893 26.2691 33 25.7604 33 25.23V1.22998L30.44 1.23998ZM56.94 6.06998L48.53 25.85C48.3559 26.2607 48.065 26.6114 47.6935 26.8585C47.322 27.1055 46.8862 27.2382 46.44 27.24H43L54.62 1.23998H59.34L71 27.24H67.48C67.0347 27.2403 66.5991 27.1097 66.2275 26.8643C65.8559 26.6189 65.5646 26.2697 65.39 25.86L56.94 6.06998ZM90 16.36L85.83 20.59V27.24H81V1.23998H85.87V14.57L98.87 1.23998H104.34L93.34 12.87L105 27.24H100.65C100.23 27.2435 99.8136 27.156 99.4304 26.9833C99.0472 26.8107 98.7059 26.5571 98.43 26.24L90 16.36ZM116 1.23998H133.32C133.89 1.23998 134.437 1.4665 134.84 1.8697C135.244 2.2729 135.47 2.81977 135.47 3.38998V5.28998H118.15C117.868 5.28998 117.588 5.23437 117.327 5.12632C117.066 5.01827 116.829 4.85991 116.63 4.66026C116.43 4.46061 116.272 4.2236 116.164 3.96275C116.056 3.7019 116 3.42232 116 3.13998V1.23998ZM116 23.19H133.85C134.42 23.19 134.967 23.4165 135.37 23.8197C135.774 24.2229 136 24.7698 136 25.34V27.24H118.15C117.582 27.2374 117.038 27.0114 116.636 26.6109C116.234 26.2104 116.005 25.6676 116 25.1V23.2V23.19Z" fill="white" />
 							<path class="logo__fill" d="M116 12H131.68C131.962 12 132.242 12.0556 132.503 12.1637C132.764 12.2717 133.001 12.4301 133.2 12.6297C133.4 12.8294 133.558 13.0664 133.666 13.3272C133.774 13.5881 133.83 13.8677 133.83 14.15V16H118.15C117.585 16.0001 117.043 15.7777 116.64 15.3809C116.238 14.9842 116.008 14.445 116 13.88V12Z" fill="#34BBDA" />
@@ -186,7 +190,7 @@
 						<a href="#" class="footer__icon payment__icon"><picture><source srcset="img/footer/wire-transfer.webp" type="image/webp"><img src="img/footer/wire-transfer.png" alt=""></picture></a>
 						<a href="#" class="footer__icon payment__icon"><picture><source srcset="img/footer/wire-transfer.webp" type="image/webp"><img src="img/footer/wire-transfer.png" alt=""></picture></a>
 					</div>
-					<div data-watch-threshold="0.8" data-watch-once data-watch class="footer__social social">
+					<div data-watch-threshold="1" data-watch-once data-watch class="footer__social social">
 						<a href="#" class="footer__icon social__icon"><img src="img/footer/tg.svg" alt=""></a>
 						<a href="#" class="footer__icon social__icon"><img src="img/footer/vk.svg" alt=""></a>
 						<a href="#" class="footer__icon social__icon"><picture><source srcset="img/footer/tc.webp" type="image/webp"><img src="img/footer/tc.png" alt=""></picture></a>
@@ -195,15 +199,16 @@
 			</div>
 			<div class="footer__bottom">
 				<div class="footer__bottom__container">
-					<div data-watch-threshold="0.2" data-watch-once data-watch class="footer__bottom__content">
-						<p class="footer__text">ⓒ 2013-2022 All rights reserved. Affilate Networks Group EZE LLC A-30-01-04-08, Flamingo Villas, Ajman, United Arab Emirates</p>
+					<div data-watch-threshold="0.5" data-watch-once data-watch class="footer__bottom__content">
+						<p class="footer__text">ⓒ 2013-2022 All rights reserved. Affilate Networks Group EZE LLC A-30-01-04-08,
+							Flamingo Villas, Ajman, United Arab Emirates</p>
 						<a href="#" class="footer__link">Политика конфиденциальности</a>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230120185458"></script>
+	<script src="js/app.min.js?_v=20230121062750"></script>
 </body>
 
 </html>
