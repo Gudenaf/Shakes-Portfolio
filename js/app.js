@@ -14,6 +14,15 @@
             document.documentElement.classList.add(className);
         }));
     }
+    function addLoadedClass() {
+        window.addEventListener("load", (function() {
+            document.documentElement.classList.add("lock");
+            setTimeout((function() {
+                document.documentElement.classList.remove("lock");
+                document.documentElement.classList.add("loaded");
+            }), 0);
+        }));
+    }
     function getHash() {
         if (location.hash) return location.hash.replace("#", "");
     }
@@ -3405,6 +3414,7 @@
     }), 0);
     window["FLS"] = true;
     isWebp();
+    addLoadedClass();
     menuInit();
     pageNavigation();
     headerScroll();
